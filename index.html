@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revo Studio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header home">
+        <div class="container">
+            <div class="top">
+                <div class="logo">revo studio</div>
+                <div class="menu">
+                    <ul>
+                        <li class="menu-item active"><a href="#">Home</a></li>
+                        <li class="menu-item"><a href=".about">About</a> </li>
+                        <li class="menu-item"><a href=".portfolio">Portfolio</a> </li>
+                        <li class="menu-item"><a href=".blog">blog</a> </li>
+                        <li class="menu-item"><a href=".contact">contact</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slideshow">
+            <div class="myslide fades" style="display: block;">
+                <img src="img/slide/slide1.jpg" alt="slide01">
+                <div class="content">
+                    <p>We are degign ninja.</p>
+                    <h1>revo studio</h1>
+                    <p>The most important things are not things, <br>
+                        so we’ll design experiences
+                    </p>
+                </div>
+            </div>
+            <div class="myslide fades">
+                <img src="img/slide/slide2.jpg" alt="slide02">
+                <div class="content">
+                    <h1>PArallax slide</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore aliquid, exercitationem consequuntur perspiciatis vel id! Necessitatibus voluptates saepe inventore porro, aut voluptatum, adipisci distinctio quas facilis, dolorum vero harum obcaecati.</p>
+                </div>
+            </div>
+            <div class="myslide fades">
+                <img src="img/slide/slide3.jpg" alt="">
+                <div class="content">
+                    <h1>creative and clean</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore aliquid, exercitationem consequuntur perspiciatis vel id! Necessitatibus voluptates saepe inventore porro, aut voluptatum, adipisci distinctio quas facilis, dolorum vero harum obcaecati.</p>
+                </div>
+            </div>
+            <button class="slide-btn">Start With us</button>
+            <div class="btn-dot">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+          <!------------------end slideshow----------------------------->
+    </main>
+  
+    <div class="content">
+        <section class="service">
+           <div class="container">
+               <div class="row">
+                    <div class="service-header">
+                        <h2 class="title">we are awesome web agency</h2>
+                        <div class="line-wrap">
+                            <div class="line">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                        <p>The difference between a Designer and Developer when it comes to design skills, is the difference between shooting a bullet and throwing it</p>
+                    </div>
+                </div>
+                <div class="service-content" >
+                    <div class="row">
+                        <div class="col-md-4 service-colum">
+                            <span class="icon-circle">
+                                <ion-icon name="diamond-outline"></ion-icon>
+                            </span>
+                            <h4 class="entry">Branding</h4>
+                            <div class="line-wrap">
+                                <div class="line">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <p>Maecenas mattis est eget efficitur tempus. Maecenas fermentum fringilla vestibulum. Nulla pulvinar ullamcorper auctor</p>
+                        </div>
+
+                        <div class="col-md-4 service-colum">
+                            <span class="icon-circle">
+                                <ion-icon name="flame-outline"></ion-icon>
+                            </span>
+                            <h4 class="entry">DEVELOPMENT</h4>
+                            <div class="line-wrap">
+                                <div class="line">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <p>Maecenas mattis est eget efficitur tempus. Maecenas fermentum fringilla vestibulum. Nulla pulvinar ullamcorper auctor</p>
+                        </div>
+                        <div class="col-md-4 service-colum">
+                            <span class="icon-circle">
+                                <ion-icon name="flask-outline"></ion-icon>
+                            </span>
+                            <h4 class="entry">MARKETING</h4>
+                            <div class="line-wrap">
+                                <div class="line">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                            <p>Maecenas mattis est eget efficitur tempus. Maecenas fermentum fringilla vestibulum. Nulla pulvinar ullamcorper auctor</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+
+    <!--------------------Service -------------------->
+        <section class="portfolio">
+            <div class="container">
+                <div class="portfolio-Wrap">
+                    <h3 class="title">OUR PORTFOLIO</h3>
+                        <div class="line-wrap">
+                            <div class="line">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                        <ul class="filter">
+                            <li class="list active" data-filter = 'All'>All</a></li>
+                            <li class="list" data-filter = 'photography'>photography</a></li>
+                            <li class="list" data-filter = 'WebDegign'> Web degign</a></li>
+                            <li class="list" data-filter = 'WebDevelopment'>Web development</a></li>
+                            <li class="list" data-filter = 'graphic'>graphic</a></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="collection-wrap">
+                <div id="all" class="collection">
+                    <div class="itemProduct" data-item ="photography" id="item1">
+                        <img class="itemBox" src="img/all/1-480x680.jpg" alt="photography">
+                        <div class="content">
+                            <h3>photography</h3>
+                            <p>stationnery design</p>
+                        </div>
+                    </div>
+                    <div class="itemProduct" data-item ="photography" id="item2">
+                        <img class="itemBox " src="img/all/2-480x340.jpg" alt="Design">     
+                        <div class="content">
+                            <h3>photography</h3>
+                            <p>stationnery design</p>
+                        </div>  
+                    </div>
+                    <div class="itemProduct" data-item ="WebDegign" id="item3">
+                        <img class="itemBox " src="img/all/3-480x340.jpg" alt="Design"> 
+                        <div class="content">
+                            <h3>Web Degign </h3>
+                            <p>stationnery design</p>
+                        </div>      
+                    </div>
+                    <div class="itemProduct" data-item ="WebDegign" id="item4">
+                        <img class="itemBox " src="img/all/4-960x340.jpg" alt="">
+                        <div class="content">
+                            <h3>Web Degign</h3>
+                            <p>stationnery design</p>
+                        </div>
+                        
+                    </div>
+                    <div class="itemProduct" data-item ="WebDevelopment" id="item5">
+                        <img class="itemBox " src="img/all/5-480x680.jpg" alt="">
+                        <div class="content">
+                            <h3>Web Development</h3>
+                            <p>stationnery design</p>
+                        </div>
+                                        
+                    </div>
+                    <div class="itemProduct" data-item ="WebDevelopment" id="item6">
+                        <img class="itemBox " src="img/all/6-480x340.jpg" alt="">
+                        <div class="content">
+                            <h3>Web Development</h3>
+                            <p>stationnery design</p>
+                        </div>
+                                
+                    </div>
+                    <div class="itemProduct"  data-item ="graphic" id="item7">
+                        <img class ="itemBox " src="img/all/7-480x340.jpg" alt="">
+                        <div class="content">
+                            <h3>graphic</h3>
+                            <p>stationnery design</p>
+                        </div>
+                                
+                    </div>
+                    <div  class="itemProduct"  data-item ="graphic" id="item8">
+                        <img class="itemBox " src="img/all/8-480x340.jpg" alt="">
+                        <div class="content">
+                            <h3>graphic</h3>
+                            <p>stationnery design</p>
+                        </div>        
+                    </div>
+                    <div class="itemProduct"  data-item ="graphic" id="item9">
+                        <img class="itemBox " src="img/all/9-480x340.jpg" alt="">
+                        <div class="content">
+                            <h3>graphic</h3>
+                            <p>stationnery design</p>
+                        </div>             
+                    </div>    
+                </div>
+            </div>
+        </section>
+     <!--------------------portfolio -------------------->
+        <section class="about">
+            <div class="about-header">
+                <h2 class="title">what we do</h2>
+                <div class="line-wrap">
+                    <div class="line">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <p>The difference between a Designer and Developer when it comes to design skills, is the difference between shooting a bullet and throwing it</p>
+            </div>
+            <div class="about-content">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-6 about-img" style="background-image: url('img/all/about1.jpg');" data-aos="fade-left">
+                    </div>
+                    <div class="col-about-right col-md-6 col-md-offset-6 row-content"  data-aos="fade-right">
+                        <h4>THE HOME OF CREATIVE DESIGNS</h4>
+                        <div class="col-about-content">
+                            <div class="row row-columns">
+                                <div class="column col-sm-6 col-md-12">
+                                    <div class="media-left">
+                                        <span class="icon-circle">
+                                            <ion-icon name="leaf-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="media-right">
+                                        <h5 class="media-title">USER INTERFACE</h5>
+                                        <p>Crafting visually stunning memorable experiences for web and interfaces</p>
+                                    </div>
+                                </div>   
+                                <div class="column col-sm-6 col-md-12">
+                                    <div class="media-left">
+                                        <span class="icon-circle">
+                                            <ion-icon name="cellular-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                    <div class="media-right">
+                                        <h5 class="media-title">DIGITAL PHOTOGRAPHY</h5>
+                                        <p>Crafting visually stunning memorable experiences for web and interfaces</p>
+                                    </div>
+                                </div>  
+                                <div class="column col-sm-6 col-md-12">
+                                    <div class="media-left">
+                                        <span class="icon-circle">
+                                            <ion-icon name="code-slash"></ion-icon>
+                                        </span>
+                                    </div> 
+                                    <div class="media-right">
+                                        <h5 class="media-title">ART DIRECTION</h5>
+                                        <p>Crafting visually stunning memorable experiences for web and interfaces</p>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-about-right col-md-6 col-md-offset-6 row-content"  data-aos="fade-left">
+                        <h4 class="title-row2">OUR EXPERTISE</h4>
+                        <div class="col-about-content row-2" data-aos="fade-left">
+                            <div class="sub-content">
+                                <p>Aliquam et hendrerit nisi, viverra ultricies nisi. Nullam at dolor condimentum, venenatis ligula non, faucibus risus. Donec pretium leo interdum nibh commodo tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                            </div>
+                                <div class="progress">
+                                    <h1 class="progress-title">DESIGN</h1>
+                                    <div class="progress-bar animated" per="80">    
+                                </div>
+                            </div>
+                            <!---->
+                            <div class="progress">
+                                <h1 class="progress-title">DEVELOPMENT</h1>
+                                <div class="progress-bar animated" per="35"></div>
+                            </div>
+                            <!---->
+                            <div class="progress">
+                                <h1 class="progress-title">PHOTOGARPHY</h1>
+                                <div class="progress-bar animated" per="99"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-6 about-img" style="background-image: url('img/all/about2.jpg'); " data-aos="fade-right"></div>
+                </div>
+        </section>
+    <!--------------------about -------------------->
+        <sectionc class="team">
+            <div class="team-header">
+                <h2 class="title">MEET OUR TEAM</h2>
+                <div class="line-wrap">
+                    <div class="line">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-content">
+                <div class="container">
+                    <div class="team-content-member">
+                        <div class="team-profile">
+                            <div class="team-profile-img">
+                                <img src="img/all/1-370x420.jpg" alt="team-member-img">
+                            </div>
+                            <div class="team-profile-info">
+                                <div class="profile-icon-social">
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-google"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></span>
+                                </div>
+                                <p class="name">BAILEY CHANDLER</p>
+                                <p class="job">PHOTOGRAPHER</p>
+                                <div class="line-wrap">
+                                    <div class="line">
+                                        <div class="dot"></div>
+                                        <div class="dot"></div>
+                                        <div class="dot"></div>
+                                    </div>
+                                </div>
+                                <p class="description">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae</p>
+                            </div>
+                        </div>
+                        <div class="team-profile">
+                            <div class="team-profile-img">
+                                <img src="img/all/2-370x420.jpg" alt="team-member-img">
+                            </div>
+                            <div class="team-profile-info">
+                                <div class="profile-icon-social">
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-google"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></span>
+                                </div>
+                                <P class="name">ANGELINA PORTMAN</P>
+                                <p class="job">CREATIVE DESIGNER</p>
+                                <div class="line-wrap">
+                                    <div class="line">
+                                        <div class="dot"></div>
+                                        <div class="dot"></div>
+                                        <div class="dot"></div>
+                                    </div>
+                                </div>
+                                <p class="description">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae</p>
+                            </div>
+                        </div>
+                        <div class="team-profile">
+                            <div class="team-profile-img" >
+                                <img src="img/all/3-370x420.jpg" alt="team-member-img">
+                            </div>
+                            <div class="team-profile-info">
+                                <div class="profile-icon-social">
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-google"></ion-icon></a></span>
+                                    <span class="social-item"><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></span>
+                                </div>
+                                <P class="name">LEON LEES</P>
+                                <p class="job">MANAGER</p>
+                                <div class="line-wrap">
+                                    <div class="line">
+                                        <div class="dot"></div>
+                                        <div class="dot"></div>
+                                        <div class="dot"></div>
+                                    </div>
+                                </div>
+                                <p class="description">Suspendisse euismod aliquam eros, finibus tincidunt velit laoreet vitae</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </sectionc>
+    <!--------------------team -------------------->
+
+
+        <section class="features">
+            <div class="container">
+                <div class="features-header">
+                    <h2 class="title">WHY CHOOSE US</h2>
+                    <div class="line-wrap">
+                        <div class="line">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <p>The difference between a Designer and Developer when it comes to design skills, is the difference between shooting a bullet and throwing it</p>
+                </div>
+                <div class="container">
+                    <div class="features-content">
+                        <div class="feature-item">
+                            <div class="icon-left">
+                                <span > <ion-icon name="paper-plane-outline"></ion-icon></span>
+                            </div>
+                            <div class="content-right">
+                                <h5 class="item-title">MODERN DESIGN </h5>
+                                <p>Donec et egestas quam. Phasellus mattis dui et elementum consectetur. Etiam eu magna id lectus</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-left">
+                                <span ><ion-icon name="settings-outline"></ion-icon></span>
+                            </div>
+                            <div class="content-right">
+                                <h5 class="item-title">EASY TO CUSTOMIZE </h5>
+                                <p>Donec et egestas quam. Phasellus mattis dui et elementum consectetur. Etiam eu magna id lectus</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-left">
+                                <span><ion-icon name="tv-outline"></ion-icon></span>
+                            </div>
+                            <div class="content-right">
+                                <h5 class="item-title">FULLY RESPONSIVE </h5>
+                                <p>Donec et egestas quam. Phasellus mattis dui et elementum consectetur. Etiam eu magna id lectus</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-left">
+                                <span><ion-icon name="ribbon-outline"></ion-icon></span>
+                            </div>
+                            <div class="content-right">
+                                <h5 class="item-title">BOOTSTRAP 3X </h5>
+                                <p>Donec et egestas quam. Phasellus mattis dui et elementum consectetur. Etiam eu magna id lectus</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-left">
+                                <span><ion-icon name="pencil-outline"></ion-icon></span>
+                            </div>
+                            <div class="content-right">
+                                <h5 class="item-title">GOOGLE FONTS </h5>
+                                <p>Donec et egestas quam. Phasellus mattis dui et elementum consectetur. Etiam eu magna id lectus</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-left">
+                                <span><ion-icon name="flag-outline"></ion-icon></span>
+                            </div>
+                            <div class="content-right">
+                                <h5 class="item-title">FONTAWESOME ICONS</h5>
+                                <p>Donec et egestas quam. Phasellus mattis dui et elementum consectetur. Etiam eu magna id lectus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+<!--------------------features -------------------->
+
+        <section class="blog">
+            <div class="blog-header">
+                <h2 class="title">OUR BLOG</h2>
+                <div class="line-wrap">
+                    <div class="line">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <P>The difference between a Designer and Developer when it comes to design skills, is the difference between shooting a bullet and throwing it</P>
+            </div>
+            <div class="container">
+                <div class="blog-content">
+                    <div class="blog-item" data-aos="fade-left">
+                        <div class="img-blog">
+                            <img src="img/all/1-370x370-360x360.jpg" alt="Blog 1">
+                        </div>
+                        <div class="content">
+                            <h5 class="item-title">WE ARE GOOD. JUST ASK OUR MOMS</h5>
+                            <p>BRANDING DESIGN</p>
+                            <div class="read-more"><a href="#">READ MORE <ion-icon name="arrow-forward-outline"></ion-icon></a></div>
+                        </div>
+                    </div>
+
+                    <div class="blog-item" data-aos="fade-up">
+                        <div class="img-blog">
+                            <img src="img/all/2-370x370-360x360.jpg" alt="Blog 1">
+                        </div>
+                        <div class="content">
+                            <h5 class="item-title">MATHS IS EASY DESIGN IS HARD</h5>
+                            <p>BRANDING DESIGN</p>
+                            <div class="read-more"><a href="#">READ MORE <ion-icon name="arrow-forward-outline"></ion-icon></a></div>
+                        </div>
+                    </div>
+
+                    <div class="blog-item" data-aos="fade-right">
+                        <div class="img">
+                            <img src="img/all/3-370x370-360x360.jpg" alt="Blog 1">
+                        </div>
+                        <div class="content">
+                            <h5 class="item-title">QUALITY NEVER GOES OUT OF STYLE</h5>
+                            <p>BRANDING DESIGN</p>
+                            <div class="read-more"><a href="#">READ MORE <ion-icon name="arrow-forward-outline"></ion-icon></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--------------------blog -------------------->
+        <section class="contact" style="background-image: url('img/all/contact.jpg');">
+            <div class="container">
+                <div class="contact-header">
+                    <h2 class="title">CONTACT US</h2>
+                    <div class="line-wrap">
+                        <div class="line">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div class="row">
+                        <div class="col-md-8 left">
+                            <input type="text" name="name" id="name" placeholder="NAME">
+                            <input type="email" name="mail" id="email"  placeholder="EMAIL ADDRESS *">
+                            <input type="text" name="message" id="message" placeholder="WRITE MESSAGE *">
+                            <div class="btn"><button type="submit">SEND MESSAGE</button></div>
+                        </div>
+                        <div class="col-md-4 right">
+                            <div class="contact-infor">
+                                <span class="icon"><ion-icon name="location-outline"></ion-icon></span>
+                                <div class="infor-content">
+                                    <p class="title">Adress</p>
+                                    <p>Joesph T. Villanvera 129 North Street Grand Rapids, MI 49546</p>
+                                </div> 
+                            </div>
+                            <div class="contact-infor">
+                                <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                                <div class="infor-content">
+                                    <p class="title">Email</p>
+                                    <p>caohiendev01@gmail.com</p>
+                                    <p>coinguyen8gsd@gmail.com</p>
+                                </div> 
+                            </div>
+                            <div class="contact-infor">
+                                <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                                <div class="infor-content">
+                                    <p class="title">Phone</p>
+                                    <p>0962 656 815</p>
+                                    <p>039 541 2241</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--------------------contact -------------------->
+    </div>
+    <button class="back-to-top"><ion-icon name="arrow-up-circle"></ion-icon></button>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="wrap">
+                    <div class="footer-column">
+                        <h5 class="column-title ">REVO STUDIO HTML TEMPLATE </h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at purus varius odio tempus cursus. Donec quis nibh luctus, posuere velit vitae, commodo dui. Nullam eu blandit orci. Pellentesque sit amet enim sapien. Fusce nec mauris pellentesque, lacinia quam eu, molestie elit.</p>
+                        <h1 class="logo">REVO STUDIO</h1>
+                    </div>
+                    <div class="footer-column">
+                        <h5 class="column-title ">HELP AND SUPPORT</h5>
+                        <p>SUPPORT PORTAL</p>
+                        <p>VIDEO TUTORIALS</p>
+                        <p>FORUMS</p>
+                        <p>TICKET SYSTEM</p>
+                        <p>BILLING SYSTEM</p>
+                    </div>
+                    <div class="footer-column">
+                        <h5 class="column-title ">GALLERY</h5>
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrap">
+                                <img src="img/all/6-80x80.jpg" alt="gallery" class="item">
+                                <span class="gallery-hover"><ion-icon name="search-circle-sharp"></ion-icon></span>
+                            </div>
+                            <div class="gallery-item-wrap">
+                                <img src="img/all/5-80x80.jpg" alt="gallery" class="item">
+                                <span class="gallery-hover"><ion-icon name="search-circle-sharp"></ion-icon></span>
+                            </div>
+                            <div class="gallery-item-wrap">
+                                <img src="img/all/4-80x80.jpg" alt="gallery" class="item">
+                                <span class="gallery-hover"><ion-icon name="search-circle-sharp"></ion-icon></span>
+                            </div>
+                            <div class="gallery-item-wrap">
+                                <img src="img/all/3-80x80.jpg" alt="gallery" class="item">
+                                <span class="gallery-hover"><ion-icon name="search-circle-sharp"></ion-icon></span>
+                            </div>
+                            <div class="gallery-item-wrap">
+                                <img src="img/all/2-80x80.jpg" alt="gallery" class="item">
+                                <span class="gallery-hover" ><ion-icon name="search-circle-sharp"></ion-icon></span>
+                            </div>
+                            <div class="gallery-item-wrap">
+                                <img src="img/all/1-80x80.jpg" alt="gallery" class="item">
+                                <span class="gallery-hover"><ion-icon name="search-circle-sharp"></ion-icon></span>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="footer-column subcribe">
+                        <h5 class="column-title">SUBSCRIBE NEWSLETTER</h5>
+                        <input type="text" placeholder="ENTER YOUR EMAIL ADDRESS">
+                        <button type="submit">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">© 2016 Revo. All rights reserved by Murren20</p>
+                <div class="social-media">
+                    <span><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span><ion-icon name="logo-twitter"></ion-icon></span>
+                    <span><ion-icon name="logo-pinterest"></ion-icon></span>
+                    <span><ion-icon name="logo-youtube"></ion-icon></span>
+                    <span><ion-icon name="logo-google"></ion-icon></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/web.js"></script>
+    
+    <script>
+        AOS.init();
+        AOS.init({
+            duration: 1000,
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: true,
+        });
+    </script>
+</body>
+</html>
