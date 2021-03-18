@@ -64,6 +64,12 @@ window.onload = function () {
         $('html,body').animate({scrollTop: position - 100 },800, 'easeOutQuad')
 
     })
+    $('.menu_mobile-item a').click(function (event){
+        event.preventDefault();
+        var part = $(this).attr('href')
+        var position = $(part).offset().top
+        $('html,body').animate({scrollTop: position - 100 },800, 'easeOutQuad')
+    })
     //
     var mySlide = document.querySelectorAll('.myslide'),
         dot = document.querySelectorAll('.dot')
@@ -87,16 +93,6 @@ window.onload = function () {
         mySlide[counter - 1].style.display = 'block';
         dot[counter - 1].classList.add('active');
     }
-    //
-    var iconService = document.querySelectorAll('.service-colum .icon-circle');
-    iconService.forEach(function (item) {
-        window.addEventListener("scroll",function(){
-            if (document.body.scrollTop > 20){
-                item.children.classList.add('rorate360')
-                console.log(item)
-            }
-        })
-    })
     //
     var listFilter = Array.from(document.querySelectorAll('.list'));
     var listProduct = Array.from(document.querySelectorAll('.itemProduct'));
@@ -147,7 +143,7 @@ window.onload = function () {
         btnBTT = document.querySelector('.back-to-top')
         window.onscroll = function () {scrollFunction()};
         function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
                 btnBTT.style.display = "block";
               } 
             else {
@@ -160,6 +156,27 @@ window.onload = function () {
         }
     }
     backToTop();
+
+
+
+    //mobile
+    function menuMobile() {
+        var iconPopUp = document.querySelector('.menu_Mobile-icon')
+        iconPopUp.onclick = function () {
+            var menuPopUp = document.querySelector('.menu-mobile');
+            var menuOverlay = document.querySelector('.menu-overlay');
+            var menuClose = document.querySelector('.menu-close')
+            menuPopUp.style.transform = 'translateX(0)';
+            menuOverlay.style.display = 'block';
+            //close
+            menuClose.onclick = function () {
+                menuPopUp.style.transform = 'translateX(-100%)';
+                menuOverlay.style.display = 'none';
+            }
+        }
+        
+    }
+    menuMobile();
 }  
 
 
