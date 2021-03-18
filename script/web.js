@@ -74,7 +74,7 @@ window.onload = function () {
     var mySlide = document.querySelectorAll('.myslide'),
         dot = document.querySelectorAll('.dot')
     var counter = 1;
-    var timer = setInterval(autoSlide,8000);
+    var timer = setInterval(autoSlide,3000);
     slideFun(counter)
     function autoSlide(){
         counter +=1;
@@ -143,7 +143,7 @@ window.onload = function () {
         btnBTT = document.querySelector('.back-to-top')
         window.onscroll = function () {scrollFunction()};
         function scrollFunction() {
-            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 btnBTT.style.display = "block";
               } 
             else {

@@ -150,13 +150,14 @@ header .top .menu ul .menu-item a:hover {
   position: absolute;
   top: 30%;
   left: 50%;
+  width: 75%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   -webkit-animation-name: posi;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
   animation-name: posi;
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 @-webkit-keyframes posi {
@@ -178,7 +179,7 @@ header .top .menu ul .menu-item a:hover {
 }
 
 .slideshow .myslide .content p:first-child {
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -1360,8 +1361,17 @@ footer .footer-bottom .social-media span ion-icon {
     font-size: 10px;
     padding: 0;
   }
+  .team .team-content .team-content-member .team-profile .team-profile-info .profile-icon-social{
+    height: 30px;
+  }
+  .team .team-content .team-content-member .team-profile .team-profile-info .profile-icon-social .social-item{
+    margin-right: 1px;
+  }
   .team .team-content .team-content-member .team-profile .team-profile-info .profile-icon-social .social-item ion-icon{
     width: 15px;
+  }
+  .team .team-content .team-content-member .team-profile .team-profile-info .name{
+    margin-bottom: 0;
   }
   .features .features-content{
     grid-template-columns: 50% 50%;
@@ -1467,8 +1477,8 @@ footer .footer-bottom .social-media span ion-icon {
   .about .about-content .row .row-content{
     padding: 10px 0 0 0;
   }
-  .portfolio .collection-wrap .collection .itemProduct .content h3{
-    font-size: 14px;
+  .portfolio .collection-wrap .collection .itemProduct .content h3,.portfolio .collection-wrap .collection .itemProduct .content p{
+    font-size: 12px;
   }
   .about .about-content .row .row-content .col-about-content .column .media-right{
     width: 90%;
@@ -1483,7 +1493,7 @@ footer .footer-bottom .social-media span ion-icon {
     line-height: 75px;
   }
   .about .about-content .row .about-img{
-    height: 500px;
+    height: 400px;
     width: 100%;
   }
   .about .about-content .row .row-content h4{
@@ -1533,7 +1543,7 @@ footer .footer-bottom .social-media span ion-icon {
     font-size: 12px;
   }
   .blog .blog-content .img-blog img{
-    height: 200px;
+    height: 150px;
   }
   .blog .blog-content .content .item-title{
     height: 50px;
@@ -1681,8 +1691,7 @@ footer .footer-bottom .social-media span ion-icon {
   }
   header .top .logo{
     width: 50%;
-    margin-left: 20%;
-    margin-top: 0.5em;
+    margin: 0.5em 0 0.5em 20%;
   }
   header .top .menu{
     display: none;
